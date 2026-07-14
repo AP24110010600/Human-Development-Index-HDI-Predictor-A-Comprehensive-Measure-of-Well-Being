@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HDI Predictor</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="main-container">
+
+<div class="home-card">
+
+<h1 class="project-title">
+🌍 Human Development Index Predictor
+</h1>
+
+<p class="project-subtitle">
+Predict a country's Human Development Index (HDI) using
+Life Expectancy, Education and Gross National Income.
+</p>
+
+<form action="/predict" method="POST">
+
+<table class="input-table">
+
+<tr>
+<td>Country Name</td>
+<td>
+<input type="text"
+name="country"
+placeholder="Enter Country Name"
+required>
+</td>
+</tr>
+
+<tr>
+<td>Life Expectancy (Years)</td>
+<td>
+<input type="number"
+step="0.1"
+name="life_expectancy"
+placeholder="Example : 74.5"
+required>
+</td>
+</tr>
+
+<tr>
+<td>Expected Years of Schooling</td>
+<td>
+<input type="number"
+step="0.1"
+name="expected_schooling"
+placeholder="Example : 15.2"
+required>
+</td>
+</tr>
+
+<tr>
+<td>Mean Years of Schooling</td>
+<td>
+<input type="number"
+step="0.1"
+name="mean_schooling"
+placeholder="Example : 11.8"
+required>
+</td>
+</tr>
+
+<tr>
+<td>GNI Per Capita (PPP)</td>
+<td>
+<input type="number"
+step="0.01"
+name="gni"
+placeholder="Example : 25000"
+required>
+</td>
+</tr>
+
+<tr>
+
+<td colspan="2" align="center">
+
+<button class="predict-btn" type="submit">
+
+Predict HDI
+
+</button>
+
+</td>
+
+</tr>
+
+</table>
+
+</form>
+
+<div class="menu-buttons">
+
+<a href="/history" class="menu-btn">
+Prediction History
+</a>
+
+<a href="/about" class="menu-btn">
+About Project
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

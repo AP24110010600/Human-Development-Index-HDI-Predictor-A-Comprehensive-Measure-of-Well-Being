@@ -1,0 +1,11 @@
+{
+    "model": "RandomForestRegressor",
+    "features": [
+        "Life expectancy",
+        "Expected years of schooling",
+        "Mean years of schooling",
+        "GNI per capita"
+    ],
+    "mse": 0.0010936985737179565,
+    "r2_score": 0.8863155758149452
+}
