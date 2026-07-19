@@ -1,0 +1,83 @@
+[
+    {
+        "country": "india ",
+        "life_expectancy": 90.0,
+        "expected_schooling": 15.0,
+        "mean_schooling": 11.0,
+        "gni": 25000.0,
+        "score": 0.628,
+        "category": "Medium Human Development"
+    },
+    {
+        "country": "pakistan",
+        "life_expectancy": 86.0,
+        "expected_schooling": 10.0,
+        "mean_schooling": 9.0,
+        "gni": 10000.0,
+        "score": 0.564,
+        "category": "Medium Human Development"
+    },
+    {
+        "country": "india ",
+        "life_expectancy": 70.0,
+        "expected_schooling": 10.0,
+        "mean_schooling": 11.0,
+        "gni": 200000.0,
+        "score": 0.798,
+        "category": "High Human Development"
+    },
+    {
+        "country": "India",
+        "life_expectancy": 75.0,
+        "expected_schooling": 25.0,
+        "mean_schooling": 13.0,
+        "gni": 200000.0,
+        "score": 0.847,
+        "category": "Very High Human Development"
+    },
+    {
+        "country": "india ",
+        "life_expectancy": 75.0,
+        "expected_schooling": 15.0,
+        "mean_schooling": 12.0,
+        "gni": 50000.0,
+        "score": 0.739,
+        "category": "High Human Development"
+    },
+    {
+        "country": "india",
+        "life_expectancy": 75.0,
+        "expected_schooling": 16.0,
+        "mean_schooling": 12.0,
+        "gni": 30000.0,
+        "score": 0.648,
+        "category": "Medium Human Development"
+    },
+    {
+        "country": "china ",
+        "life_expectancy": 70.0,
+        "expected_schooling": 10.0,
+        "mean_schooling": 7.0,
+        "gni": 20000.0,
+        "score": 0.543,
+        "category": "Low Human Development"
+    },
+    {
+        "country": "india",
+        "life_expectancy": 78.0,
+        "expected_schooling": 16.0,
+        "mean_schooling": 13.0,
+        "gni": 30000.0,
+        "score": 0.655,
+        "category": "Medium Human Development"
+    },
+    {
+        "country": "INDIA",
+        "life_expectancy": 80.0,
+        "expected_schooling": 16.0,
+        "mean_schooling": 13.0,
+        "gni": 30000.0,
+        "score": 0.657,
+        "category": "Medium Human Development"
+    }
+]
