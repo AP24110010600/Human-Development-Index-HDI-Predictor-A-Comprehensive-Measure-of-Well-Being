@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction History</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#eef2f7;
+            padding:40px 20px;
+        }
+
+        .history-card{
+            width:95%;
+            max-width:1200px;
+            margin:auto;
+            background:#fff;
+            border-radius:18px;
+            padding:40px;
+            box-shadow:0 10px 30px rgba(0,0,0,.12);
+        }
+
+        h1{
+            text-align:center;
+            color:#1565c0;
+            font-size:48px;
+            margin-bottom:35px;
+        }
+
+        .table-container{
+            overflow-x:auto;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            min-width:1000px;
+        }
+
+        thead{
+            background:#1565c0;
+            color:white;
+        }
+
+        th{
+            padding:18px;
+            font-size:18px;
+        }
+
+        td{
+            padding:16px;
+            text-align:center;
+            border-bottom:1px solid #ddd;
+            font-size:17px;
+        }
+
+        tbody tr:nth-child(even){
+            background:#f8f9fc;
+        }
+
+        tbody tr:hover{
+            background:#eaf2ff;
+        }
+
+        .btn-area{
+            margin-top:35px;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:14px 28px;
+            background:#1565c0;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+            font-size:18px;
+            font-weight:bold;
+            transition:.3s;
+        }
+
+        .btn:hover{
+            background:#0d47a1;
+        }
+
+        .empty{
+            text-align:center;
+            font-size:22px;
+            color:#666;
+            padding:50px;
+        }
+
+        @media(max-width:768px){
+
+            .history-card{
+                padding:20px;
+            }
+
+            h1{
+                font-size:34px;
+            }
+
+            th,td{
+                font-size:15px;
+                padding:12px;
+            }
+
+            .btn{
+                width:100%;
+                text-align:center;
+            }
+
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="history-card">
+
+<h1>Prediction History</h1>
+
+{% if history %}
+
+<div class="table-container">
+
+<table>
+
+<thead>
+<tr>
+<th>Country</th>
+<th>Life Expectancy</th>
+<th>Expected Schooling</th>
+<th>Mean Schooling</th>
+<th>GNI Per Capita</th>
+<th>HDI Score</th>
+<th>Category</th>
+</tr>
+</thead>
+
+<tbody>
+
+{% for row in history %}
+
+<tr>
+
+<td>{{ row.country }}</td>
+
+<td>{{ row.life_expectancy }}</td>
+
+<td>{{ row.expected_schooling }}</td>
+
+<td>{{ row.mean_schooling }}</td>
+
+<td>${{ row.gni }}</td>
+
+<td>{{ row.score }}</td>
+
+<td>{{ row.category }}</td>
+
+</tr>
+
+{% endfor %}
+
+</tbody>
+
+</table>
+
+</div>
+
+{% else %}
+
+<div class="empty">
+No prediction history available.
+</div>
+
+{% endif %}
+
+<div class="btn-area">
+<a href="/" class="btn">← Back to Home</a>
+</div>
+
+</div>
+
+</body>
+</html>
