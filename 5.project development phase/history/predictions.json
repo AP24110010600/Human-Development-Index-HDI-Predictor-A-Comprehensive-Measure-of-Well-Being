@@ -1,0 +1,173 @@
+[
+    {
+        "Country": "india",
+        "Life Expectancy": 74.0,
+        "Expected Years of Schooling": 10.0,
+        "Mean Years of Schooling": 16.0,
+        "GNI Per Capita": 66000.0,
+        "HDI Score": 0.817,
+        "Category": "Very High Human Development"
+    },
+    {
+        "Country": "india",
+        "Life Expectancy": 70.0,
+        "Expected Years of Schooling": 10.0,
+        "Mean Years of Schooling": 10.0,
+        "GNI Per Capita": 447667.0,
+        "HDI Score": 0.797,
+        "Category": "High Human Development"
+    },
+    {
+        "Country": "india",
+        "Life Expectancy": 100.0,
+        "Expected Years of Schooling": 16.0,
+        "Mean Years of Schooling": 13.0,
+        "GNI Per Capita": 100000.0,
+        "HDI Score": 0.847,
+        "Category": "Very High Human Development"
+    },
+    {
+        "Country": "india",
+        "Life Expectancy": 45.0,
+        "Expected Years of Schooling": 24.0,
+        "Mean Years of Schooling": 13.0,
+        "GNI Per Capita": 30000.0,
+        "HDI Score": 0.672,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "india",
+        "Life Expectancy": 72.2,
+        "Expected Years of Schooling": 15.2,
+        "Mean Years of Schooling": 11.4,
+        "GNI Per Capita": 25000.0,
+        "HDI Score": 0.619,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "india",
+        "Life Expectancy": 73.0,
+        "Expected Years of Schooling": 14.0,
+        "Mean Years of Schooling": 11.0,
+        "GNI Per Capita": 24993.0,
+        "HDI Score": 0.612,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "india",
+        "Life Expectancy": 73.0,
+        "Expected Years of Schooling": 16.0,
+        "Mean Years of Schooling": 12.0,
+        "GNI Per Capita": 40000.0,
+        "HDI Score": 0.714,
+        "Category": "High Human Development"
+    },
+    {
+        "Country": "india ",
+        "Life Expectancy": 59.9,
+        "Expected Years of Schooling": 12.0,
+        "Mean Years of Schooling": 11.0,
+        "GNI Per Capita": 23456.0,
+        "HDI Score": 0.572,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "india",
+        "Life Expectancy": 70.0,
+        "Expected Years of Schooling": 15.0,
+        "Mean Years of Schooling": 11.0,
+        "GNI Per Capita": 23343.0,
+        "HDI Score": 0.61,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "india ",
+        "Life Expectancy": 74.0,
+        "Expected Years of Schooling": 15.0,
+        "Mean Years of Schooling": 11.4,
+        "GNI Per Capita": 23000.0,
+        "HDI Score": 0.617,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "india",
+        "Life Expectancy": 70.0,
+        "Expected Years of Schooling": 13.0,
+        "Mean Years of Schooling": 11.0,
+        "GNI Per Capita": 22222.0,
+        "HDI Score": 0.602,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "india ",
+        "Life Expectancy": 80.0,
+        "Expected Years of Schooling": 13.0,
+        "Mean Years of Schooling": 11.0,
+        "GNI Per Capita": 10000.0,
+        "HDI Score": 0.582,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "india ",
+        "Life Expectancy": 80.0,
+        "Expected Years of Schooling": 11.0,
+        "Mean Years of Schooling": 11.0,
+        "GNI Per Capita": 46464.0,
+        "HDI Score": 0.726,
+        "Category": "High Human Development"
+    },
+    {
+        "Country": "india",
+        "Life Expectancy": 90.0,
+        "Expected Years of Schooling": 12.0,
+        "Mean Years of Schooling": 21.0,
+        "GNI Per Capita": 22333.0,
+        "HDI Score": 0.629,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "india ",
+        "Life Expectancy": 74.0,
+        "Expected Years of Schooling": 15.0,
+        "Mean Years of Schooling": 11.0,
+        "GNI Per Capita": 30000.0,
+        "HDI Score": 0.635,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "india ",
+        "Life Expectancy": 80.0,
+        "Expected Years of Schooling": 13.0,
+        "Mean Years of Schooling": 11.0,
+        "GNI Per Capita": 2400.0,
+        "HDI Score": 0.585,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "ind",
+        "Life Expectancy": 70.0,
+        "Expected Years of Schooling": 13.0,
+        "Mean Years of Schooling": 13.0,
+        "GNI Per Capita": 20000.0,
+        "HDI Score": 0.604,
+        "Category": "Medium Human Development"
+    },
+    {
+        "Country": "usa ",
+        "Life Expectancy": 50.0,
+        "Expected Years of Schooling": 10.0,
+        "Mean Years of Schooling": 5.0,
+        "GNI Per Capita": 10000.0,
+        "HDI Score": 0.439,
+        "Category": "Low Human Development"
+    },
+    {
+        "Country": "india ",
+        "Life Expectancy": 90.0,
+        "Expected Years of Schooling": 12.0,
+        "Mean Years of Schooling": 16.0,
+        "GNI Per Capita": 100000.0,
+        "HDI Score": 0.847,
+        "Category": "Very High Human Development"
+    }
+]
